@@ -158,7 +158,7 @@ logo=("""\033[92;1m
  \033[1;91m[\033[1;97m•\033[1;91m]\033[1;32m PLZ SAPPORT ME BRO....
  \033[1;91m[\033[1;97m•\033[1;91m]\033[1;32m TIGER SPAMMING SQUAD....
  \033[1;93m××××××××××××××××\033[1;93m×××××××××××××××\033[1;93m×××××××××××××××××\033[1;91m"""
-""")
+
 def cek_apk(session,coki):
 	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
 	sop = BeautifulSoup(w,"html.parser")
